@@ -3,6 +3,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.w3c.dom.Element;
 
 import java.time.Duration;
 
@@ -25,6 +26,7 @@ public class Radiobutton {
         driver.findElement(By.xpath("//input[@value='2']")).click();
         driver.findElement(By.xpath("//a[@class='_9bq5']")).click();
         driver.findElement(By.xpath("//button[@value='1']")).click();
+        driver.close();// //Changes done from local
     }
 }
 
