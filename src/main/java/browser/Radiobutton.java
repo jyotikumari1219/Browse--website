@@ -27,6 +27,8 @@ public class Radiobutton {
         driver.findElement(By.xpath("//a[@class='_9bq5']")).click();
         driver.findElement(By.xpath("//button[@value='1']")).click();
         driver.close();//Changes done from local
+        element.click(); //changes done from git hub
     }
+
 }
 
